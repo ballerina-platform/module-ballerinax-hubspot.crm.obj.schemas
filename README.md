@@ -1,8 +1,8 @@
 # Ballerina HubSpot CRM Object Schemas connector
 
-[![Build](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/actions/workflows/ci.yml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas.svg)](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/commits/master)
-[![GitHub Issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/hubspot.crm.object.schemas.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%hubspot.crm.object.schemas)
+[![Build](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/actions/workflows/ci.yml)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas.svg)](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/commits/master)
+[![GitHub Issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/hubspot.crm.obj.schemas.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%2Fhubspot.crm.obj.schemas)
 
 ## Overview
 
@@ -22,20 +22,20 @@ App Developer Accounts, allow you to create developer test accounts to test apps
 
 1. Go to "Test Account section" from the left sidebar.
 
-    ![Test accounts](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/test_acc_img1.png)
+    ![Test accounts](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/test_acc_img1.png)
 
 2. Click "Create developer test account".
 
-   ![Developer Test Accounts](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/test_acc_img2.png)
+   ![Developer Test Accounts](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/test_acc_img2.png)
 
 3. In the next dialogue box, give a name to your test account and click "Create".
 
-   ![Hubspot developer account name](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/test_acc_img3.png)
+   ![Hubspot developer account name](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/test_acc_img3.png)
 
 ### Step 2: Create a HubSpot App under your account.
 
 1. In your developer account, navigate to the "Apps" section. Click on "Create App".
-   ![Hubspot App Creation](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/app_img1.png)
+   ![Hubspot App Creation](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/app_img1.png)
 
 2. Provide the necessary details, including the app name and description.
 
@@ -43,7 +43,7 @@ App Developer Accounts, allow you to create developer test accounts to test apps
 
 1. Move to the Auth Tab.
 
-   ![Auth tab](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/auth.png)
+   ![Auth tab](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/auth.png)
 
 2. In the "Scopes" section, add the following scopes for your app using the "Add new scope" button.
 
@@ -52,13 +52,13 @@ App Developer Accounts, allow you to create developer test accounts to test apps
 
 3. Add your Redirect URI in the relevant section. You can use `localhost` addresses for local development purposes. Then Click "Create App".
 
-   ![Redirect URI](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/redirect_url.png)
+   ![Redirect URI](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/redirect_url.png)
 
 ### Step 4: Get your Client ID and Client Secret
 
 - Navigate to the "Auth" tab. Make sure to save the provided Client ID and Client Secret.
 
-   ![Credentials](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/main/docs/setup/resources/credentials.png)
+   ![Credentials](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/main/docs/setup/resources/credentials.png)
 
 ### Step 5: Setup Authentication Flow
 
@@ -164,8 +164,8 @@ public function main() returns error? {
 ## Examples
 
 The `HubSpot CRM Object Schemas` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/tree/main/examples), covering the following use cases:
-   1. [Auther and Book assosiation](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/tree/main/examples/book-author-association-association-association-association-association)
-   2. [Product spec update](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.object.schemas/tree/main/examples/product-update)
+   1. [Auther and Book assosiation](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/tree/main/examples/book-author-association-association-association-association-association)
+   2. [Product spec update](https://github.com/ballerina-platform/module-ballerinax-hubspot.crm.obj.schemas/tree/main/examples/product-update)
 
 ## Build from the source
 
@@ -255,7 +255,7 @@ All the contributors are encouraged to read the [Ballerina Code of Conduct](http
 
 ## Useful links
 
-* For more information go to the [`hubspot.crm.object.schemas` package](https://central.ballerina.io/ballerinax/hubspot.crm.obj.schemas/latest).
+* For more information go to the [`hubspot.crm.obj.schemas` package](https://central.ballerina.io/ballerinax/hubspot.crm.obj.schemas/latest).
 * For example demonstrations of the usage, go to [Ballerina By Examples](https://ballerina.io/learn/by-example/).
 * Chat live with us via our [Discord server](https://discord.gg/ballerinalang).
 * Post all technical questions on Stack Overflow with the [#ballerina](https://stackoverflow.com/questions/tagged/ballerina) tag.
